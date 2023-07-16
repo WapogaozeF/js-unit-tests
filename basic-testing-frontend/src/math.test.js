@@ -49,7 +49,7 @@ it("should throw an error if no value is passed into the function", () => {
     const resultFn = () => {
         add();
     };
-    expect(resultFn).toThrow();
+    expect(resultFn).toThrow(/numbers is not iterable/);
 });
 
 it("should throw an error if provider with multiple arguments inserted of an array", () => {
@@ -60,5 +60,5 @@ it("should throw an error if provider with multiple arguments inserted of an arr
         add(num1, num2);
     };
 
-    expect(resultFn).toThrow();
+    expect(resultFn).toThrow(/numbers is not iterable/);
 });
