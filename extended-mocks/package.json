@@ -6,7 +6,7 @@
   "scripts": {
     "start": "http-server -c-1",
     "test": "vitest --run",
-    "test:watch": "vitest --run --reporter verbose"
+    "test:watch": "vitest --reporter verbose"
   },
   "keywords": [],
   "author": "",
