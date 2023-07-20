@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1",
-    "test": "vitest --run"
+    "test": "vitest --run",
+    "test:watch": "vitest --run --reporter verbose"
   },
   "keywords": [],
   "author": "",
