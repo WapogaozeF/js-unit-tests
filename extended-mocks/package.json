@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1",
-    "test": "vitest --run",
+    "test": "vitest --environment happy-dom --reporter verbose",
     "test:watch": "vitest --reporter verbose"
   },
   "keywords": [],
